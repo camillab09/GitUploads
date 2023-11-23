@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="converter.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="input-num">
+    <select id="unitdropdown">
+        <option value="lbs2kg">Convert lbs to kgs</option>
+        <option value="kg2lbs">Convert kgs to lbs</option>
+        <option value="inc2cm">Convert inches to cms</option>
+        <option value="cm2inc">Convert cms to inches</option>
+        <option value="miles2km">Convert miles to kms</option>
+        <option value="km2miles">Convert kms to miles</option>
+    </select>
+    <button onclick="convert()">Convert</button>
+    <p id="result-txt"></p>
+    </input>  
+</body>
+</html>
